@@ -19,14 +19,12 @@ keywords = [
 repository = "https://github.com/anas-elgarhy/ports-sniffer"
 homepage = "https://github.com/anas-elgarhy/ports-sniffer"
 
-# See https://crates.io/category_slugs for more categories
 categories = [
     "command-line-utilities",
     "network-programming"
 ]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 colored = "2.0.0"
 local-ip-address = "0.4.8"
+clap = { version="4", features=["derive"] }
